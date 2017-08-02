@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "GetNamedComplimentIntent",
+      "samples": [
+        "get {name} a compliment",
+        "give {name} a compliment",
+        "a compliment {name}"
+      ],
+      "slots": [
+        {
+          "name": "name",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "GetNewComplimentIntent",
+      "samples": [
+        "tell me a compliment",
+        "give me a compliment",
+        "a compliment"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "AMAZON.US_FIRST_NAME",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Kendra",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sidharth",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Gaurav",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}

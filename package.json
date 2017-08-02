@@ -1,0 +1,14 @@
+{
+  "name": "alexa_skill_test",
+  "version": "1.0.0",
+  "description": "test node project for using alexa sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Symonds",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11"
+  }
+}
